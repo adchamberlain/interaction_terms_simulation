@@ -1,2 +1,2 @@
 # interaction_terms_simulation
-R simulation to illustrate how changes in gender pay gaps in the excluded reference industry do not impact estimates in other sectors.
+R simulation to illustrate how changes in estimated gender pay gaps in an excluded reference industry do not impact pay gap estimates in other sectors (when estimating pay gaps via male x industry interaction terms). Data files consists of three industries (A, B, C) with 30 workers each, 15 male and 15 female. First data file has a 5 percent gender pay gap in Industry A, while the second file has a 10 percent pay gap for Industry A. Similation shows how the estimated pay gaps in Industry B and C change when the pay gap in the omitted reference category (Industry A) changes. 
